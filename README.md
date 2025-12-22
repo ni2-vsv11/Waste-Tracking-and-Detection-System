@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Waste Detection System (WDS)
 
 A full-stack web application for reporting and managing waste detection in communities. The system allows users to report waste locations with images and location data, while administrators can manage and track these reports.
@@ -126,3 +127,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Support
 
 For support, please email [your-email@example.com] 
+=======
+# Waste-Tracking-and-Detection-System
+>>>>>>> d84f0e55d78e4dd42dde45bdb09c62eced4bc7a5
