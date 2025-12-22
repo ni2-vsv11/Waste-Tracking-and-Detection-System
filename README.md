@@ -10,6 +10,25 @@ The Waste Tracking & Detection System allows users to report waste found in thei
 
 ---
 
+## 📸 Project Screenshots
+
+### 🏠 Home Page
+![Home Page](screenshots/home.png)
+
+### 👤 User Dashboard
+![User Dashboard](screenshots/user-dashboard.png)
+
+### 🗺️ Waste Reporting with Map
+![Waste Report Map](screenshots/report-map.png)
+
+### 📋 Waste Reports List
+![Reports List](screenshots/reports.png)
+
+### 🛠️ Admin Dashboard
+![Admin Dashboard](screenshots/admin-dashboard.png)
+
+---
+
 ## ✨ Features
 
 ### 👤 User Features
@@ -28,52 +47,37 @@ The Waste Tracking & Detection System allows users to report waste found in thei
 
 ---
 
-## 🖥️ Screens & Interface
-
-- Landing page with user and admin login
-- Dashboard cards showing report count and status
-- OpenStreetMap integration using Leaflet.js
-- Detailed report listing with images and location
-- Fully responsive design
-
----
-
 ## 🧰 Tech Stack
 
-Frontend: HTML5, CSS3, JavaScript, Bootstrap  
-Backend: PHP  
-Database: MySQL  
-Maps: Leaflet.js, OpenStreetMap  
-Server: XAMPP / Apache  
-Version Control: Git & GitHub  
+- **Frontend:** HTML5, CSS3, JavaScript, Bootstrap  
+- **Backend:** PHP  
+- **Database:** MySQL  
+- **Maps:** Leaflet.js, OpenStreetMap  
+- **Server:** XAMPP / Apache  
+- **Version Control:** Git & GitHub  
 
 ---
-
 ## 🗂️ Project Structure
-
-
 
 wds-new/
 ├── admin/
-│ ├── dashboard.php
-│ ├── reports.php
-│ └── users.php
 ├── user/
-│ ├── dashboard.php
-│ └── profile.php
 ├── config/
-│ └── db_connect.php
 ├── database/
-│ └── wms3.sql
 ├── uploads/
 ├── css/
 ├── js/
+├── screenshots/
+│ ├── home.png
+│ ├── user-dashboard.png
+│ ├── report-map.png
+│ ├── reports.png
+│ └── admin-dashboard.png
 ├── index.php
 ├── login.php
 ├── register.php
 ├── logout.php
 └── README.md
-
 
 ---
 
@@ -83,7 +87,8 @@ Clone the repository:
 ```bash
 git clone https://github.com/ni2-vsv11/Waste-Tracking-and-Detection-System.git
 
-
+---
+**
 Move the project to XAMPP htdocs:
 
 mv Waste-Tracking-and-Detection-System /opt/lampp/htdocs/wds
@@ -157,5 +162,5 @@ This project is licensed under the MIT License.
 
 ⭐ Support
 
-If you found this project useful, consider starring the repository, forking it, or sharing feedback.
+If you found this project useful, consider starring the repository or sharing feedback.
 Happy Coding 🚀♻️
