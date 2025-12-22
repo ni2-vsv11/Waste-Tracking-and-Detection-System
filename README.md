@@ -1,132 +1,182 @@
-<<<<<<< HEAD
-# Waste Detection System (WDS)
+# ♻️ Waste Tracking & Detection System (WDS)
 
-A full-stack web application for reporting and managing waste detection in communities. The system allows users to report waste locations with images and location data, while administrators can manage and track these reports.
+A smart web-based platform that enables users to report waste issues using images and live location details.  
+The system helps visualize waste-prone areas through interactive maps and allows authorities to track report progress efficiently.
 
-## Features
+🌍 Built to encourage cleanliness, awareness, and citizen participation.
 
-- User Registration and Authentication
-- Interactive Map Integration using OpenStreetMap
-- Waste Report Submission with Images
-- Real-time Location Detection
-- Admin Dashboard with Statistics
-- Report Status Management
-- Responsive Design
+---
 
-## Technologies Used
+## 📌 Project Overview
 
-- PHP 7.4+
-- MySQL 5.7+
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap 4.5
-- Leaflet.js for Maps
-- OpenStreetMap
+The **Waste Tracking & Detection System** allows users to report waste found in their surroundings by uploading images and selecting locations on a map.  
+All reports are displayed visually, making it easier to identify critical areas and monitor progress over time.
 
-## Prerequisites
+This project is developed as an **academic and civic-tech solution** addressing real-world environmental challenges.
 
-- XAMPP (or similar local server environment)
-- Web Browser
-- Internet Connection (for maps)
+---
 
-## Installation
+## ✨ Features
 
-1. Clone the repository to your XAMPP's htdocs folder:
-   ```bash
-   cd /path/to/xampp/htdocs
-   git clone [repository-url] wds
-   ```
+### 👤 User Features
+- User registration and login
+- Waste reporting with:
+  - Waste type selection
+  - Image upload
+  - Map-based location pin
+- Track report status:
+  - Pending
+  - In Progress
+  - Completed
+- User dashboard with report summary
+- Profile information view
 
-2. Create a MySQL database named 'wms3':
-   - Open phpMyAdmin
-   - Create a new database named 'wms3'
-   - Import the database schema from `database/wms3.sql`
+### 🛠️ Admin Features
+- Dashboard with report statistics
+- Interactive map showing waste locations
+- View all reported cases
+- Update report status
+- Filter reports by:
+  - Date
+  - Waste type
+  - Status
 
-3. Configure the database connection:
-   - Open `config/db_connect.php`
-   - Update the database credentials if needed
+---
 
-4. Set up the file permissions:
-   ```bash
-   chmod 777 uploads/
-   ```
+## 🖥️ Screens & Interface
 
-5. Access the application:
-   ```
-   http://localhost/wds
-   ```
+- 🏠 Landing page with user & admin login
+- 📊 Dashboard cards showing report count and status
+- 🗺️ OpenStreetMap integration using Leaflet.js
+- 📋 Detailed report listing with images and location
+- 📱 Fully responsive design for all screen sizes
 
-## Default Admin Credentials
+---
 
-- Email: admin@gmail.com
-- Password: pass123
+## 🧰 Tech Stack
 
-## Directory Structure
+| Layer | Technologies |
+|------|-------------|
+| Frontend | HTML5, CSS3, JavaScript, Bootstrap |
+| Backend | PHP |
+| Database | MySQL |
+| Maps | Leaflet.js, OpenStreetMap |
+| Server | XAMPP / Apache |
+| Version Control | Git & GitHub |
 
-```
-wds/
+---
+
+## 🗂️ Project Structure
+
+wds-new/
 ├── admin/
-│   └── dashboard.php
-├── config/
-│   └── db_connect.php
-├── css/
-│   └── style.css
-├── database/
-│   └── wms3.sql
-├── uploads/
+│ ├── dashboard.php
+│ ├── reports.php
+│ └── users.php
 ├── user/
-│   └── dashboard.php
+│ ├── dashboard.php
+│ └── profile.php
+├── config/
+│ └── db_connect.php
+├── database/
+│ └── wms3.sql
+├── uploads/
+├── css/
+├── js/
 ├── index.php
 ├── login.php
 ├── register.php
 ├── logout.php
 └── README.md
-```
 
-## Usage
 
-1. User Registration:
-   - Navigate to the registration page
-   - Fill in the required details
-   - Submit the form
+---
 
-2. Reporting Waste:
-   - Login to your user account
-   - Click on the map to select location
-   - Fill in waste details
-   - Upload an image
-   - Submit the report
+## ⚙️ Installation & Setup
 
-3. Admin Management:
-   - Login with admin credentials
-   - View all reports on the dashboard
-   - Update report statuses
-   - View statistics
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/ni2-vsv11/Waste-Tracking-and-Detection-System.git
 
-## Security Features
+2️⃣ Move Project to XAMPP htdocs
+mv Waste-Tracking-and-Detection-System /opt/lampp/htdocs/wds
 
-- Password Hashing
-- Session Management
-- SQL Injection Prevention
-- XSS Protection
-- File Upload Validation
+3️⃣ Database Setup
 
-## Contributing
+Open phpMyAdmin
 
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a new Pull Request
+Create a database named wms3
 
-## License
+Import the file: database/wms3.sql
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+4️⃣ Configure Database Connection
 
-## Support
+Edit:
 
-For support, please email [your-email@example.com] 
-=======
-# Waste-Tracking-and-Detection-System
->>>>>>> d84f0e55d78e4dd42dde45bdb09c62eced4bc7a5
+config/db_connect.php
+
+
+Update database credentials if required.
+
+5️⃣ Set Upload Permissions
+chmod 777 uploads/
+
+6️⃣ Run the Project
+http://localhost/wds
+
+🔒 Security Features
+
+Password hashing
+
+Session-based authentication
+
+SQL injection prevention
+
+XSS protection
+
+Image upload validation
+
+🎯 Use Cases
+
+Smart city waste reporting
+
+Environmental awareness systems
+
+Academic mini / major project
+
+Civic-tech based web application
+
+🚀 Future Enhancements
+
+📱 Mobile application support
+
+🤖 AI-based waste classification
+
+🔔 Real-time notifications
+
+📊 Advanced analytics dashboard
+
+🌐 Multi-language support
+
+👨‍💻 Developed By
+
+Nitesh Vasave
+🎓 Computer Applications Student
+💻 Full Stack Developer
+🌱 Interested in Smart City & Environmental Solutions
+
+📜 License
+
+This project is licensed under the MIT License.
+
+⭐ Support
+
+If you found this project helpful:
+
+⭐ Star the repository
+
+🍴 Fork it
+
+🐞 Raise issues or suggestions
+
+Happy Coding 🚀♻️
