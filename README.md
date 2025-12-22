@@ -6,20 +6,10 @@ The Waste Tracking & Detection System allows users to report waste found in thei
 
 📸 Project Screenshots
 🏠 Home Page
-https://screenshots/home.png
-
 👤 User Dashboard
-https://screenshots/user-dashboard.png
-
 🗺️ Waste Reporting with Map
-https://screenshots/report-map.png
-
 📋 Waste Reports List
-https://screenshots/reports.png
-
 🛠️ Admin Dashboard
-https://screenshots/admin-dashboard.png
-
 ✨ Features
 👤 User Features
 User registration and login
@@ -57,12 +47,20 @@ Server: XAMPP / Apache
 Version Control: Git & GitHub
 
 🗂️ Project Structure
-text
+Plaintext
+
 wds-new/
 ├── admin/
+│   ├── dashboard.php
+│   ├── reports.php
+│   └── users.php
 ├── user/
+│   ├── dashboard.php
+│   └── profile.php
 ├── config/
+│   └── db_connect.php
 ├── database/
+│   └── wms3.sql
 ├── uploads/
 ├── css/
 ├── js/
@@ -80,11 +78,13 @@ wds-new/
 ⚙️ Installation & Setup
 Clone the repository:
 
-bash
+Bash
+
 git clone https://github.com/ni2-vsv11/Waste-Tracking-and-Detection-System.git
 Move the project to XAMPP htdocs:
 
-bash
+Bash
+
 mv Waste-Tracking-and-Detection-System /opt/lampp/htdocs/wds
 Database setup:
 
@@ -94,18 +94,15 @@ Create a database named wms3
 
 Import database/wms3.sql
 
-Configure database connection in:
+Configure database connection in: config/db_connect.php
 
-text
-config/db_connect.php
 Set upload permissions:
 
-bash
-chmod 777 uploads/
-Run the project:
+Bash
 
-text
-http://localhost/wds
+chmod 777 uploads/
+Run the project: http://localhost/wds
+
 🔒 Security Features
 Password hashing
 
@@ -138,15 +135,14 @@ Advanced analytics dashboard
 Multi-language support
 
 👨‍💻 Developed By
-Nitesh Vasave
-Computer Applications Student
+Nitesh Vasave Computer Applications Student
+
 Full Stack Developer
 
 📜 License
-This project is licensed under the MIT License.
+MIT License
 
 ⭐ Support
 If you found this project useful, consider starring the repository or sharing feedback.
 
 Happy Coding 🚀♻️
-
