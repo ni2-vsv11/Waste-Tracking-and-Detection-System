@@ -1,53 +1,68 @@
-♻️ Waste Tracking & Detection System (WDS)
+# ♻️ Waste Tracking & Detection System (WDS)
+
 A smart web-based platform that enables users to report waste issues using images and live location details. The system visualizes waste-prone areas on an interactive map and helps track report progress efficiently. Built to encourage cleanliness, awareness, and citizen participation.
 
-📌 Project Overview
+---
+
+## 📌 Project Overview
+
 The Waste Tracking & Detection System allows users to report waste found in their surroundings by uploading images and selecting locations on a map. Each report is displayed visually, making it easier to identify critical areas and monitor progress over time. This project is developed as an academic and civic-tech solution focused on real-world environmental challenges.
 
-📸 Project Screenshots
-🏠 Home Page
-👤 User Dashboard
-🗺️ Waste Reporting with Map
-📋 Waste Reports List
-🛠️ Admin Dashboard
-✨ Features
-👤 User Features
-User registration and login
+---
 
-Waste reporting with waste type, image upload, and map-based location pin
+## 📸 Project Screenshots
 
-Track report status: Pending, In Progress, Completed
+### 🏠 Home Page
+![WhatsApp Image 2025-12-17 at 4 12 50 PM](https://github.com/user-attachments/assets/b8622990-fe02-440d-a3d9-f43148901ea2)
 
-User dashboard with report summary
+### 👤 User Dashboard
+![WhatsApp Image 2025-12-17 at 4 12 50 PM (1)](https://github.com/user-attachments/assets/8dea9486-aefb-4471-a249-7c2994f029a5)
 
-Profile information display
 
-🛠️ Admin Features
-Dashboard with report statistics
+### 🗺️ Waste Reporting with Map
+![WhatsApp Image 2025-12-17 at 4 12 52 PM](https://github.com/user-attachments/assets/54c0f48f-a34f-4976-9150-cc306770582e)
 
-Interactive map showing waste locations
 
-View all reported cases
+### 📋 Waste Reports List
+![WhatsApp Image 2025-12-17 at 4 12 50 PM (2)](https://github.com/user-attachments/assets/1c88cb12-6d60-4090-a777-6e823c558a48)
 
-Update report status
 
-Filter reports by date, waste type, and status
+### 🛠️ Admin Dashboard
+![WhatsApp Image 2025-12-17 at 4 12 51 PM](https://github.com/user-attachments/assets/fdaf8b11-7304-49f9-b08a-cce23e0c2bb2)
 
-🧰 Tech Stack
-Frontend: HTML5, CSS3, JavaScript, Bootstrap
 
-Backend: PHP
+---
 
-Database: MySQL
+## ✨ Features
 
-Maps: Leaflet.js, OpenStreetMap
+### 👤 User Features
+- User registration and login
+- Waste reporting with waste type, image upload, and map-based location pin
+- Track report status: Pending, In Progress, Completed
+- User dashboard with report summary
+- Profile information display
 
-Server: XAMPP / Apache
+### 🛠️ Admin Features
+- Dashboard with report statistics
+- Interactive map showing waste locations
+- View all reported cases
+- Update report status
+- Filter reports by date, waste type, and status
 
-Version Control: Git & GitHub
+---
 
-🗂️ Project Structure
-Plaintext
+## 🧰 Tech Stack
+
+- Frontend: HTML5, CSS3, JavaScript, Bootstrap  
+- Backend: PHP  
+- Database: MySQL  
+- Maps: Leaflet.js, OpenStreetMap  
+- Server: XAMPP / Apache  
+- Version Control: Git & GitHub  
+
+---
+
+## 🗂️ Project Structure
 
 wds-new/
 ├── admin/
@@ -75,18 +90,13 @@ wds-new/
 ├── register.php
 ├── logout.php
 └── README.md
-⚙️ Installation & Setup
-Clone the repository:
 
-Bash
+
+
+## ⚙️ Installation & Setup
 
 git clone https://github.com/ni2-vsv11/Waste-Tracking-and-Detection-System.git
-Move the project to XAMPP htdocs:
-
-Bash
-
 mv Waste-Tracking-and-Detection-System /opt/lampp/htdocs/wds
-Database setup:
 
 Open phpMyAdmin
 
@@ -94,55 +104,57 @@ Create a database named wms3
 
 Import database/wms3.sql
 
-Configure database connection in: config/db_connect.php
-
-Set upload permissions:
-
-Bash
-
 chmod 777 uploads/
-Run the project: http://localhost/wds
 
-🔒 Security Features
-Password hashing
+http://localhost/wds
 
-Session-based authentication
 
-SQL injection prevention
+---
 
-XSS protection
+## 🔒 Security Features
 
-Image upload validation
+- Password hashing  
+- Session-based authentication  
+- SQL injection prevention  
+- XSS protection  
+- Image upload validation  
 
-🎯 Use Cases
-Smart city waste reporting
+---
 
-Environmental awareness applications
+## 🎯 Use Cases
 
-Academic mini or major project
+- Smart city waste reporting  
+- Environmental awareness applications  
+- Academic mini or major project  
+- Civic-tech web solution  
 
-Civic-tech web solution
+---
 
-🚀 Future Enhancements
-Mobile application support
+## 🚀 Future Enhancements
 
-AI-based waste classification
+- Mobile application support  
+- AI-based waste classification  
+- Real-time notifications  
+- Advanced analytics dashboard  
+- Multi-language support  
 
-Real-time notifications
+---
 
-Advanced analytics dashboard
+## 👨‍💻 Developed By
 
-Multi-language support
+**Nitesh Vasave**  
+Software Developer  
 
-👨‍💻 Developed By
-Nitesh Vasave Computer Applications Student
+---
 
-Full Stack Developer
+## 📜 License
 
-📜 License
-MIT License
+MIT License  
 
-⭐ Support
-If you found this project useful, consider starring the repository or sharing feedback.
+---
 
+## ⭐ Support
+
+If you found this project useful, consider starring the repository or sharing feedback.  
 Happy Coding 🚀♻️
+
